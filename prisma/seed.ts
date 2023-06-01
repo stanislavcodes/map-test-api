@@ -24,6 +24,41 @@ const placesData: Prisma.PlaceCreateInput[] = [
     latitude: 50.44840439348857,
     longitude: 30.524981317590488,
   },
+  {
+    name: 'Lviv Opera House',
+    description:
+      'The Lviv Opera House, located in Lviv, is one of the oldest and most beautiful theaters in Ukraine. It was built in the Neo-Renaissance style and opened in 1900. The opera house hosts a wide range of performances, including opera, ballet, and classical music concerts.',
+    latitude: 49.841219,
+    longitude: 24.031263,
+  },
+  {
+    name: 'Chernobyl Exclusion Zone',
+    description:
+      'The Chernobyl Exclusion Zone is a highly radioactive area surrounding the site of the Chernobyl Nuclear Power Plant disaster. It is located near the town of Pripyat and covers an area of approximately 2,600 square kilometers. The zone has become a popular tourist attraction, offering guided tours to visitors who want to learn about the history and consequences of the nuclear accident.',
+    latitude: 51.276303,
+    longitude: 30.221899,
+  },
+  {
+    name: 'Odesa Opera and Ballet Theater',
+    description:
+      'The Odesa Opera and Ballet Theater, located in Odesa, is one of the most prestigious cultural institutions in Ukraine. The theater building is an architectural masterpiece, constructed in the Neo-Baroque style. It hosts opera and ballet performances, showcasing the talents of Ukrainian and international artists.',
+    latitude: 46.484598,
+    longitude: 30.732729,
+  },
+  {
+    name: 'Khreschatyk Street',
+    description:
+      "Khreschatyk Street is the main street in Kyiv, Ukraine. It stretches for 1.2 kilometers and is considered the city's central thoroughfare. Khreschatyk is lined with shops, restaurants, cafes, and important landmarks. It is a vibrant and bustling area, particularly during festivals and public events.",
+    latitude: 50.447974,
+    longitude: 30.522875,
+  },
+  {
+    name: 'Pechersk Lavra',
+    description:
+      'Pechersk Lavra, also known as the Kyiv Monastery of the Caves, is a historic Orthodox Christian monastery located in Kyiv. It is a UNESCO World Heritage Site and one of the most important religious and cultural landmarks in Ukraine. The complex includes several churches, caves with mummified monks, and beautiful architectural structures.',
+    latitude: 50.434184,
+    longitude: 30.559331,
+  },
 ];
 
 async function main() {
